@@ -1,6 +1,6 @@
 {
   "coupons": [
-    { "code": "XMAS2024", "discount": "20" },
+    { "code": "XMAS2024", "discount": "16.67" },
     { "code": "HOLIDAY50", "discount": "50" }
   ]
 }
