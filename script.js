@@ -13,6 +13,7 @@ const nameError = document.getElementById("name-error");
 const emailError = document.getElementById("email-error");
 const mobileError = document.getElementById("mobile-error");
 const couponError = document.getElementById("coupon-error");
+const whatsappError = document.getElementById("whatsapp-error");
 const ShowTotalAmount = document.getElementById("total-amount");
 let discountAmount = null;
 // hardcode amount
@@ -89,6 +90,7 @@ async function handleSubmit() {
   const name = userForm.name.value.trim();
   const email = userForm.email.value.trim();
   const mobile = userForm.mobile.value.trim();
+  const whatsappmobile = userForm.whatsappmobile.value.trim();
   const couponCode = document.getElementById("coupon").value.trim();
 
   // console.log({ name, email, mobile, couponCode });
@@ -104,6 +106,10 @@ async function handleSubmit() {
 
   if (!mobile || !/^[0-9]{10}$/.test(mobile)) {
     mobileError.textContent = "Please enter a valid mobile number.";
+    return;
+  }
+  if (!whatsappmobile || !/^[0-9]{10}$/.test(whatsappmobile)) {
+    whatsappmobileError.textContent = "Please enter a valid mobile number.";
     return;
   }
 
