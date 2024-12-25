@@ -46,7 +46,7 @@ applyCouponBtn.addEventListener("click", async (e) => {
     if (validCoupon) {
       discountPercentage = validCoupon.discount;
       discountPrice =
-        originalAmount - (originalAmount * discountPercentage) / 100;
+      Math.round(originalAmount - (originalAmount * discountPercentage) / 100);
       // Last amount
       discountAmount = discountPrice;
       ShowTotalAmount.classList.add("font-bold");
