@@ -1,0 +1,7 @@
+{
+  "coupons": [
+    { "code": "XMAS2024", "discount": "20" },
+    { "code": "HOLIDAY50", "discount": "50" }
+  ]
+}
+
