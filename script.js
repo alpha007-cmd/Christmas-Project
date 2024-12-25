@@ -136,7 +136,7 @@ async function handleSubmit() {
       if (response.status === 200) {
         Swal.fire({
           title: "Form Submitted!",
-          text: `Thank you, ${name}! Your details have been submitted.`,
+          text: `Thank you, ${name}! Your details have been submitted.Our representative will Contact you as soon as posible`,
           icon: "success",
           confirmButtonText: "OK",
         });
