@@ -16,7 +16,7 @@ const couponError = document.getElementById("coupon-error");
 const ShowTotalAmount = document.getElementById("total-amount");
 let discountAmount = null;
 // hardcode amount
-const originalAmount = 3500;
+const originalAmount = 5999;
 
 // Show modal
 buyServiceButton.addEventListener("click", () => {
