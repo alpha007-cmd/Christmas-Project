@@ -1,6 +1,6 @@
 {
   "coupons": [
-    { "code": "XMAS2024", "discount": "16" },
+    { "code": "XMAS2024", "discount": "16.67" },
     { "code": "LICHUZZ2024XMASS", "discount": "16.67" }
   ]
 }
