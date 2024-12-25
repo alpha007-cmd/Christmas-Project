@@ -1,7 +1,7 @@
 {
   "coupons": [
-    { "code": "XMAS2024", "discount": "16.67" },
-    { "code": "HOLIDAY50", "discount": "50" }
+    { "code": "XMAS2024", "discount": "16" },
+    { "code": "LICHUZZ2024XMASS", "discount": "16.67" }
   ]
 }
 
