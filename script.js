@@ -109,7 +109,7 @@ async function handleSubmit() {
     return;
   }
   if (!whatsappmobile || !/^[0-9]{10}$/.test(whatsappmobile)) {
-    whatsappmobileError.textContent = "Please enter a valid mobile number.";
+    whatsappError.textContent = "Please enter a valid mobile number.";
     return;
   }
 
@@ -117,6 +117,7 @@ async function handleSubmit() {
   const data = JSON.stringify({
     name,
     mobile,
+    whatsappmobile,
     email,
     couponCode,
     Amount: discountAmount || originalAmount,
